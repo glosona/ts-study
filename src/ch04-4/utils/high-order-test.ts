@@ -1,11 +1,3 @@
-// export type AddOneFunc = (number) => number
-
-// const addOne = (a: number): AddOneFunc =>{
-//     const _add: AddOneFunc => {
-//         return a + 1
-//     } 
-// }
-
 type AddOneFunc = (number) => number
 
 const addOne = (a: number): AddOneFunc => {
@@ -22,3 +14,9 @@ console.log(addOne(5)(3))
 
 // const addFive = addOneAnswer(5)
 // console.log(addFive(3))
+
+const applyToEach = (f: (n: number) => number, arr: number[]): number[] => {
+    return arr.map(f)
+}
+
+const addTwo = (n: number) => n + 2
