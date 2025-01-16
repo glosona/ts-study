@@ -17,17 +17,7 @@ export default [
       },
       parserOptions: {
         project: './tsconfig.json',
-        ecmaFeatures: {
-          // 이 코드 추가!
-          jsx: true,
-        },
       },
-    },
-    rules: {
-      ...airbnbConfig.rules,
-      ...airbnbTypescriptConfig.rules,
-      ...prettierConfig.rules,
-      'react/react-in-jsx-scope': 'off',
     },
     plugins: {
       prettier: prettierConfig,
@@ -41,6 +31,12 @@ export default [
       react: {
         version: 'detect',
       },
+    },
+    rules: {
+      ...airbnbConfig.rules,
+      ...airbnbTypescriptConfig.rules,
+      ...prettierConfig.rules,
+      'react/react-in-jsx-scope': 'off',
     },
   },
 ];
