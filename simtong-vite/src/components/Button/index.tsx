@@ -1,3 +1,4 @@
+import { Component } from 'react';
 import styled from '@emotion/styled';
 
 const Container = styled.button`
@@ -23,6 +24,13 @@ interface Props {
   readonly onClick: () => void;
 }
 
-export const Button = ({ label, onClick }: Props) => {
-  return <Container onClick={onClick}>{label}</Container>;
-};
+// export const Button = ({ label, onClick }: Props) => {
+//   return <Container onClick={onClick}>{label}</Container>;
+// };
+
+export class Button extends Component<Props> {
+  render() {
+    const { label, onClick } = this.props;
+    return <Container onClick={onClick}>{label}</Container>;
+  }
+}
