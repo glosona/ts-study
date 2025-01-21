@@ -3,12 +3,12 @@ import styled from '@emotion/styled';
 import router from './app/routes';
 
 const Container = styled.div`
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #eeeeee;
+  // height: 100vh;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  // background-color: #eeeeee;
 `;
 
 const App = () => {

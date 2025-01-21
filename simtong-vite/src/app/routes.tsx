@@ -5,6 +5,7 @@ import CH06 from '../ch06';
 import { Home } from '../ch07/pages/Home';
 import { DataView } from '../ch06/pages/DataView';
 import { ToDoInput } from '../ch06/pages/ToDoInput';
+import CH08 from '../ch08';
 
 const NotFound = styled.div`
   text-align: center;
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         element: <ToDoInput />,
       },
     ],
+  },
+  {
+    path: '/ch08',
+    element: <CH08 />,
   },
   {
     path: '*',

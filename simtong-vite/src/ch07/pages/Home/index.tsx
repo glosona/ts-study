@@ -18,7 +18,8 @@ export const Home = () => {
     <Container>
       HOME
       <Button label="CH05: Counter App" onClick={() => navigate('/ch05')} />
-      <Button label="CH06: To Do List" onClick={() => navigate('/ch06')} />
+      <Button label="CH06-7: To Do List" onClick={() => navigate('/ch06')} />
+      <Button label="CH08: Blog Posting" onClick={() => navigate('/ch08')} />
     </Container>
   );
 };
