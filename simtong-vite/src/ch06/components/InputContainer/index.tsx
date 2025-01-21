@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ToDoInput } from '../ToDoInput';
+import { ToDoInput } from '../../pages/ToDoInput';
 import { ShowInputButton } from '../ShowInputButton';
 
 export const InputContainer = () => {

@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import { Title } from '../Title';
-import { ToDoList } from '../ToDoList';
+import { Title } from '../../components/Title';
+import { ToDoList } from '../../components/ToDoList';
 
 const Container = styled.div`
   display: flex;

@@ -4,13 +4,7 @@ import styled from '@emotion/styled';
 import { Button } from './components/Button';
 import { Label } from './components/Label';
 
-const Container = styled.div`
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items center;
-  justify-content: center;
-`;
+const Container = styled.div``;
 
 const Title = styled.h1`
   maring-bottom: 32px;

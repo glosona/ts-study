@@ -5,7 +5,7 @@ const Contaner = styled.div`
   position: absolute;
   right: 40px;
   bottom: 40px;
-  z-index: 1;
+  // z-index: 1;
 `;
 
 interface Props {
