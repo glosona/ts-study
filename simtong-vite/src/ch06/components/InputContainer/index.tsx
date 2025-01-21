@@ -1,21 +1,8 @@
-import { useState } from 'react';
-import { ToDoInput } from '../../pages/ToDoInput';
+import { useNavigate } from 'react-router-dom';
 import { ShowInputButton } from '../ShowInputButton';
 
 export const InputContainer = () => {
-  const [showToDoInput, setShowToDoInput] = useState(false);
+  const navigate = useNavigate();
 
-  const onClose = () => {
-    setShowToDoInput(false);
-  };
-
-  return (
-    <>
-      {showToDoInput && <ToDoInput onClose={onClose} />}
-      <ShowInputButton
-        show={showToDoInput}
-        onClick={() => setShowToDoInput(!showToDoInput)}
-      />
-    </>
-  );
+  return <ShowInputButton show={false} onClick={() => navigate('/ch06/add')} />;
 };

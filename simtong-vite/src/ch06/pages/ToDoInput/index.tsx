@@ -40,7 +40,7 @@ export const ToDoInput = () => {
 
     onAdd(toDo);
     setToDo('');
-    navigate('/');
+    navigate('/ch06');
   };
 
   return (
@@ -52,7 +52,7 @@ export const ToDoInput = () => {
           <Button label="추가" color="#304FFE" onClick={onAddTodo} />
         </InputContainer>
       </Contents>
-      <ShowInputButton show={true} onClick={() => navigate('/')} />
+      <ShowInputButton show={true} onClick={() => navigate('/ch06')} />
     </Container>
   );
 };

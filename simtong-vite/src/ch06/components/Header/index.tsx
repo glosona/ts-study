@@ -21,7 +21,7 @@ const StyledLink = styled(Link)`
 export const Header = () => {
   return (
     <Container>
-      <StyledLink to="/">할 일 목록 앱</StyledLink>
+      <StyledLink to="/ch06">할 일 목록 앱</StyledLink>
     </Container>
   );
 };

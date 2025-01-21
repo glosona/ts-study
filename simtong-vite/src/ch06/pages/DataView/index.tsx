@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { Title } from '../../components/Title';
 import { ToDoList } from '../../components/ToDoList';
+import { InputContainer } from '../../components/InputContainer';
 
 const Container = styled.div`
   display: flex;
@@ -14,9 +15,12 @@ const Container = styled.div`
 
 export const DataView = () => {
   return (
-    <Container>
-      <Title label="할 일 목록" />
-      <ToDoList />
-    </Container>
+    <>
+      <Container>
+        <Title label="할 일 목록" />
+        <ToDoList />
+      </Container>
+      <InputContainer />
+    </>
   );
 };
