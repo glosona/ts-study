@@ -5,6 +5,11 @@
     "noImplicitAny": true,
     "module": "esnext",
     "target": "es6",
-    "jsx": "react"
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@mui/*": ["node_modules/@mui/material/*"]
+    }
   }
 }
