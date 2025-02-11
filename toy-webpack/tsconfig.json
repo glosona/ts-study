@@ -7,7 +7,7 @@
     "target": "es6",
     "jsx": "react",
     "moduleResolution": "node",
-    "baseUrl": "./src",
+    "baseUrl": "",
     "paths": {
       "@mui/*": ["node_modules/@mui/material/*"]
     }

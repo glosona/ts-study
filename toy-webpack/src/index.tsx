@@ -2,6 +2,7 @@ import * as React from "react";
 import { createRoot } from "react-dom/client";
 import "./tailwind.css";
 import App from "./App";
+import Labs from "./pages/Labs";
 
 const root = createRoot(document.getElementById("root")!);
-root.render(<App />);
+root.render(<Labs />);
